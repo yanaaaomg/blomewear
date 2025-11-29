@@ -21,6 +21,7 @@ nav {
     font-size: 24px;
     font-weight: bold;
     gap: 8%;
+    flex-wrap: wrap;
 
 }
 a {
@@ -104,9 +105,30 @@ h2 {
     font-size: 50px;
 
 }
-#sectiondomu {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 600px) {
+
+    .ul-navbar {
+        gap: 20px;
+        font-size: 18px;
+        justify-content: center;
+    }
+
+    .logo-navbar {
+        width: 80px;
+        height: 65px;
+        padding-left: 0;
+    }
+
+    .div-domu {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
 }
