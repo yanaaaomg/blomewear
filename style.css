@@ -1,6 +1,6 @@
 * {
-  font-family: "DM Serif Text", serif;
-  margin: 0;
+    font-family: "Open Sans";
+    margin: 0;
 }
 html {
     scroll-behavior: smooth;
@@ -20,7 +20,7 @@ nav {
     padding: 20px 10px;
     font-size: 24px;
     font-weight: bold;
-    gap: 100px;
+    gap: 8%;
 
 }
 a {
@@ -89,7 +89,7 @@ a:hover::after {
     text-align: center;
     z-index: 1;
     position: relative;
-    gap: 20px;
+    gap: 20%;
 }
 h1 {
     z-index: 1;
@@ -102,4 +102,11 @@ h2 {
     color: #F7DAC6;
     font-family: "Open Sans";
     font-size: 50px;
+
+}
+#sectiondomu {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
