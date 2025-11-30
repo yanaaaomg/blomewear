@@ -6,19 +6,24 @@ html {
     scroll-behavior: smooth;
 }
 body {
-      background: #FFEDAC;
+      background: #F7DAC6;
 }
 nav {
     background-color: #4E0714;
-
+    position: fixed;
+    gap: 45px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 .ul-navbar {
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px 10px;
-    font-size: 24px;
+    padding: 0px 10px;
+    font-size: 22px;
     font-weight: bold;
     gap: 8%;
     flex-wrap: wrap;
@@ -58,7 +63,7 @@ a:hover::after {
     height: 100px;
     padding-left:20px ;
 }
-.div-domu {
+.div-hero {
     position: relative;
     height: 90vh;
     display: flex;
@@ -67,7 +72,7 @@ a:hover::after {
     overflow: hidden;
     padding-left: 340px;
 }
-.div-domu::before {
+.div-hero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -105,30 +110,28 @@ h2 {
     font-size: 50px;
 
 }
-@media (max-width: 600px) {
-
-    .ul-navbar {
-        gap: 20px;
-        font-size: 18px;
-        justify-content: center;
-    }
-
-    .logo-navbar {
-        width: 80px;
-        height: 65px;
-        padding-left: 0;
-    }
-
-    .div-domu {
-        padding: 0 10px;
-        text-align: center;
-    }
-
-    h1 {
-        font-size: 42px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
+.div-domu {
+    scroll-margin-top: 105px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto; 
+    border-radius: 20px;
+    padding: 40px;
+    gap: 20%;
+    background-color: rgba(78, 7, 20, 0.6);
+    width: 90%;
+    z-index: -1;
+}
+.section-h2 {
+    font-size: 40px;
+    color: #F7DAC6;
+}
+p {
+    color: #F7DAC6;
+}
+#img-domu1 {
+    width: 360px;
+    height: 300px;
 }
