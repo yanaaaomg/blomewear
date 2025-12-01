@@ -67,8 +67,15 @@ a:hover::after {
 .logo-navbar {
     width: 120px;
     height: 100px;
-    padding-left:20px ;
+    padding-left:20px;
 }
+
+.nav-logo::after {
+    display: none;
+}
+
+/* cau, tohle je osobni vankuv blog. tohle zpracovani navbaru me VYSIRA a kdokoliv, kdo udelal to video na ten instagram, kterej vyjel janci na fyp a janca si rekla "je to bude dobrej napad" tak ho pobodam, protoze mi to nejde, a janca tomu prd rozumi bo udelala kopy pejst a je stastna zeo */
+
 .div-hero {
     position: relative;
     height: 90vh;
@@ -128,7 +135,7 @@ h2 {
     padding: 40px;
     gap: 20%;
     background-color: rgba(78, 7, 20, 0.6);
-    width: 90%;
+    width: 49%;
     z-index: -1;
     margin-top: 60px;
 }
@@ -161,7 +168,7 @@ p {
     margin-top: 60px;
     border-radius: 20px;
     overflow: hidden;
-    transition: transform 0.3s ease; 
+    
 }
 .img-produkty {
     width: 430px;
