@@ -29,6 +29,7 @@ nav {
     flex-wrap: wrap;
 
 }
+
 a {
     text-decoration: none;
     color:#F7DAC6;
@@ -40,6 +41,7 @@ a {
     z-index: 1;
     transition: color 0.3s;
 }
+
 a::after {
   content: "";
   position: absolute;
@@ -159,6 +161,7 @@ p {
     margin-top: 60px;
     border-radius: 20px;
     overflow: hidden;
+    transition: transform 0.3s ease; 
 }
 .img-produkty {
     width: 430px;
@@ -173,6 +176,20 @@ p {
     padding: 20px;
     border-radius: 20px;
 }
+
+/*vanek contribution (aspon nepouziva ejaj) */
+
+.produkty-rada {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+.div-okynko:hover{
+    transform: scale(1.05);
+}
+
 .mapa {
     border-radius: 15px;
     margin: auto;
