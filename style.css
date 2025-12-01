@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-      background: #F7DAC6;
+      background: #FFEDAC;
 }
 nav {
     background-color: #4E0714;
@@ -114,7 +114,7 @@ h2 {
     scroll-margin-top: 105px;
     display: flex;
     text-align: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin: 0 auto; 
     border-radius: 20px;
